@@ -11,6 +11,6 @@ message = "Last digit of %d is %d and is" % (number, last_digit)
 if last_digit > 5:
     print(f"{message} greater than 5")
 elif last_digit == 0:
-    print("{message} 0")
+    print(f"{message} 0")
 elif last_digit < 6:
-    print(f"{message} less than 6 and not 0\n")
+    print(f"{message} less than 6 and not 0")
